@@ -13,6 +13,37 @@ body
 .container
     background-color: #F7F7F7
 .header
+    position: relative
     height: 95vh
     background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(1, 1, 1, 0.7) 99.94%), url('../img/balloun.jpg') center / cover no-repeat
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%)
+    &__logo
+        position: absolute
+        left: 50px
+        top: 50px
+        height: 70px
+        width: 56px
+    &__box
+        position: absolute
+        top: 40%
+        left: 50%
+        transform: translate(-50%, -50%)
+        width: 100%
+        text-align: center
+.title-first
+    color: #FFFFFF
+    font-family: "Roboto", sans-serif
+    &__main
+        display: block
+        font-weight: 800
+        font-size: 50px
+        line-height: 60px
+        letter-spacing: 10px
+        text-transform: uppercase
+        margin-bottom: 10px
+    &__secondary
+        display: block
+        font-weight: 200
+        font-size: 40px
+        line-height: 48px
+        letter-spacing: 5px
