@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../SASS/main.sass"
+	],
+	"sourcesContent": [
+		"* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box; }\nbody {\n    font-family: \"Roboto\";\n    font-weight: 400;\n    color: #777;\n    font-size: 16px;\n    letter-spacing: 2px;\n    padding: 50px;\n    background-color: white; }\n.container {\n    background-color: #F7F7F7; }\n.header {\n    height: 95vh;\n    background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(1, 1, 1, 0.7) 99.94%), url('../img/balloun.jpg') center / cover no-repeat;\n    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); }\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CAAG;;;AAC7B,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,QAAQ;EACrB,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,GAAG;EACnB,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,KAAK;CAAG;;;AAC9B,AAAA,UAAU,CAAC;EACP,gBAAgB,EAAE,OAAO;CAAG;;;AAChC,AAAA,OAAO,CAAC;EACJ,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,gFAAgF,EAAE,yBAAyB,CAAC,YAAc,CAAC,SAAS;EAChJ,SAAS,EAAE,sCAAsC;CAAG"
+}

@@ -1,0 +1,31 @@
+/* line 1, ../../../Projects/balloons/SASS/main.sass */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 5, ../../../Projects/balloons/SASS/main.sass */
+body {
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #777;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 50px;
+  background-color: white;
+}
+
+/* line 13, ../../../Projects/balloons/SASS/main.sass */
+.container {
+  background-color: #F7F7F7;
+}
+
+/* line 15, ../../../Projects/balloons/SASS/main.sass */
+.header {
+  height: 95vh;
+  background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(1, 1, 1, 0.7) 99.94%), url("../img/balloun.jpg") center/cover no-repeat;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+
+/*# sourceMappingURL=main.css.map */
